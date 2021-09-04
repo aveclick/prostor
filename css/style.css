@@ -419,8 +419,8 @@ table, th, td{
 .tariff__download{
   display: flex;
   justify-content: space-between;
-  padding-bottom: 185px;
   flex-wrap: wrap;
+  padding: 0 15px 185px 15px;
 }
 
 .tariff__download-container{
@@ -625,51 +625,77 @@ span{
   justify-content: space-between;
 }
 
-@media(max-width:1600px) {
+
+@media(max-width:1550px) {
+.instruments__img img{
+  width: 628px;
+  height: 593px;
+  }
+  .instruments__img {
+    top: -100px;
+  }
+  .FQA {
+    padding: 140px 0;
+  }
+  .one_str{
+  display: block;
+  } 
+}
+
+
+@media(max-width:1500px){
+.tariff__download-container {
+  padding: 30px 40px;
+}
+}
+
+@media(max-width:1350px) {
+  .instruments__img img{
+    width: 520px;
+    height: 493px;
+  }
   .instruments__img{
-    position: relative;
-    display: flex;
-    justify-content: center;
+    top: -61px;
   }
-  .instruments__content__icons {
-    justify-content: center;
-    padding-left: 0;
+  .instruments__content__icon-container__content{
+    padding-right: 15px;
   }
-  .instruments__content h1{
-    text-align: center;
-    padding-bottom: 80px;
+  .instruments__content__icons{
+    padding-left: 15px;
   }
-  .instruments__content__icon-container__content {
-    padding: 0 40px;
-  }
-  .instruments__content{
-    text-align: center;
+  .instruments__content__button{
+    padding-bottom: 50px;
   }
 }
 
-@media(max-width:1500px){
-.tariff__container h1{
-  text-align: center;
-}
-.tariff__download{
-  display: block;
-}
-.tariff__download-container{
-  justify-content: center;
-}
-.FQA {
-    padding: 140px 15px;
-}
-.one_str{
-  display: block;
-}
-.tariff__download-container{
-  margin: 50px 60px;
-}
+@media(max-width:1300px) {
+  .tariff__download-container__button button {
+    padding: 20px 40px;
+  }
 }
 
 @media(max-width:1230px) {
   .routes__map-title{
     padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 1200px){
+.tariff__download-container {
+    padding: 15px 25px;
+}
+.tariff__download-container img{
+  width: 90px;
+  height: 90px;
+}
+.tariff__download-container{
+  align-items: center;
+}
+}
+
+@media(max-width:1100px) {
+  .instruments__img img{
+    width: 420px;
+    height: 393px;
   }
 }
