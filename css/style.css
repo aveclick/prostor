@@ -383,6 +383,10 @@ table, th, td{
   padding-bottom: 66px;
 }
 
+.town:hover{
+  cursor: pointer;
+}
+
 .routes__table tr:nth-of-type(even){
   background-color: #F8F8F8;
 }
@@ -513,8 +517,14 @@ table, th, td{
 }
 
 .FQA__item-text{
-  display: none;
   padding: 20px 15px 30px 70px;
+}
+
+.accord__text,
+.accord__text-1,
+.accord__text-2,
+.accord__text-3{
+  display: none;
 }
 
 .FQA__item-text p{
